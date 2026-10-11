@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 বাজার দর | BazarDor
 
-## Getting Started
+### বাংলাদেশের নিত্যপ্রয়োজনীয় পণ্যের বাজারদর এক নজরে
 
-First, run the development server:
+BazarDor is a web application that helps users explore the prices of essential daily products in Bangladesh. Users can view product prices, compare market rates, track price changes, browse products by category, and access detailed product information through a simple and responsive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **📊 Daily Price Overview:** Explore the prices of essential products and see which products have increased or decreased in price.
+- **🛍️ Product Library:** Browse various daily necessities, including rice, vegetables, fish, meat, oil, and spices.
+- **📈 Price Comparison:** View minimum, maximum, and average prices, along with market-based price information.
+- **🔎 Category Filtering & Sorting:** Browse products by category and sort them by price from low to high or high to low.
+- **🔐 Secure Authentication:** Register and sign in using email and password with Better Auth.
+- **🌐 Social Login:** Google and GitHub login options.
+- **📱 Responsive Design:** Access the application on mobile phones, tablets, and desktop devices.
+- **👤 User Profile:** Access a profile page to manage account information.
+- **🔔 Notifications:** Receive toast notifications for relevant authentication actions and errors.
+- **⏳ Loading & Error States:** Display loading indicators and helpful messages when appropriate.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js** — React framework for building the web application.
+- **React** — Component-based user interface.
+- **TypeScript** — Type-safe JavaScript development.
+- **Tailwind CSS** — Utility-first styling and responsive design.
+- **HeroUI** — UI components.
+- **Better Auth** — Authentication and session management.
+- **MongoDB** — Database for authentication-related data.
+- **React Toastify** — Toast notifications.
+- **Git & GitHub** — Version control and source code management.
+- **Vercel** — Deployment platform.
