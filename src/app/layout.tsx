@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "বাজার দর | BazarDor",
+  title: "BazarDor",
   description:
     "বাংলাদেশের নিত্যপ্রয়োজনীয় পণ্যের বাজারদর, দাম পরিবর্তন এবং বাজারভিত্তিক মূল্য এক নজরে দেখুন।",
 };
